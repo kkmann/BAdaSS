@@ -2,4 +2,4 @@ dependencies:
   - pip
   - pip:
       - julia
-      - r
+      - r-base
