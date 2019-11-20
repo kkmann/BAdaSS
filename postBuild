@@ -1,3 +1,4 @@
 #!/bin/bash
 Rscript -e 'options(repos="https://cran.microsoft.com/snapshot/2019-11-01/"); install.packages("remotes"); remotes::install_github("kkmann/badr")'
 Rscript -e 'badr::setup_julia()'
+Rscript -e 'options(repos="https://cran.microsoft.com/snapshot/2019-11-01/"); install.packages('IRkernel'); IRkernel::installspec()'
