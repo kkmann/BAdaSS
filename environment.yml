@@ -1,0 +1,4 @@
+dependencies:
+    - rpy2
+    - pip
+        - julia
